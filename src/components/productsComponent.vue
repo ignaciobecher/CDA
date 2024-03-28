@@ -9,8 +9,7 @@
         <img src="../assets/bidonProd.png" alt="" />
         <p class="desc">Descripción</p>
         <p>Producto mineralizado</p>
-        <p>Disminuido en sodio</p>
-        <p>Filtrado de alta calidad</p>
+        
         <button>Pedir</button>
       </div>
 
@@ -20,8 +19,7 @@
         <img src="../assets/bidonProd.png" alt="" />
         <p class="desc">Descripción</p>
         <p>Producto mineralizado</p>
-        <p>Disminuido en sodio</p>
-        <p>Filtrado de alta calidad</p>
+       
         <button>Pedir</button>
       </div>
 
@@ -31,8 +29,7 @@
         <img src="../assets/bidonProd.png" alt="" />
         <p class="desc">Descripción</p>
         <p>Producto mineralizado</p>
-        <p>Disminuido en sodio</p>
-        <p>Filtrado de alta calidad</p>
+       
         <button>Pedir</button>
       </div>
 
@@ -42,8 +39,7 @@
         <img src="../assets/bidonProd.png" alt="" />
         <p class="desc">Descripción</p>
         <p>Producto mineralizado</p>
-        <p>Disminuido en sodio</p>
-        <p>Filtrado de alta calidad</p>
+ 
         <button>Pedir</button>
       </div>
 
@@ -53,8 +49,7 @@
         <img src="../assets/bidonProd.png" alt="" />
         <p class="desc">Descripción</p>
         <p>Producto mineralizado</p>
-        <p>Disminuido en sodio</p>
-        <p>Filtrado de alta calidad</p>
+
         <button>Pedir</button>
       </div>
 
@@ -64,8 +59,7 @@
         <img src="../assets/bidonProd.png" alt="" />
         <p class="desc">Descripción</p>
         <p>Producto mineralizado</p>
-        <p>Disminuido en sodio</p>
-        <p>Filtrado de alta calidad</p>
+
         <button>Pedir</button>
       </div>
     </div>
@@ -119,7 +113,8 @@
   }
 
   .product img {
-  transition: transform 0.3s ease; /* Agregar transición suave */
+  transition: transform 0.3s ease;
+  width: 100px;
 }
 
 .product:hover img {
