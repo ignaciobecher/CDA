@@ -4,7 +4,7 @@
     <div class="left">
       <h1>CDA SAN LUIS</h1>
       <h3>
-        EN <span style="color: #07aded">CENTRO DE DISTRIBUCIÓN DE AGUA</span> TE
+        EN <span style="color: #07aded; font-weight: bold;">CENTRO DE DISTRIBUCIÓN DE AGUA</span> TE
         OFRECEMOS LOS MEJORES PRODUCTOS PARA VOS Y TU FAMILIA
       </h3>
       <button>Quiero ser cliente</button>
@@ -110,6 +110,7 @@ export default {
     font-weight: 300;
     font-size: 35px;
     margin-bottom: 40px;
+    font-weight: bold;
   }
 
   .main .left h3 {
