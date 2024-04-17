@@ -4,14 +4,25 @@
     <div class="left">
       <h1>CDA SAN LUIS</h1>
       <h3>
-        EN <span style="color: #07aded; font-weight: bold;">CENTRO DE DISTRIBUCIÓN DE AGUA</span> TE
-        OFRECEMOS LOS MEJORES PRODUCTOS PARA VOS Y TU FAMILIA
+        EN
+        <span style="color: #07aded; font-weight: bold"
+          >CENTRO DE DISTRIBUCIÓN DE AGUA</span
+        >
+        TE OFRECEMOS LOS MEJORES PRODUCTOS PARA VOS Y TU FAMILIA
       </h3>
       <button>Quiero ser cliente</button>
     </div>
 
     <div class="right">
-      <carrouserComponent></carrouserComponent>
+      <!-- <carrouserComponent></carrouserComponent> -->
+
+      <div class="image-container">
+        <img src="../../public/imgHeader.png" alt="" />
+        <div class="text-overlay">
+          <h1><span class="spanH1">2 x 1</span> bidones</h1>
+          <h2>Nuevos clientes</h2>
+        </div>
+      </div>
     </div>
   </div>
   <wppBtn></wppBtn>
@@ -23,7 +34,7 @@ import carrouserComponent from "./visuals/carrouserComponent.vue";
 export default {
   components: {
     wppBtn,
-    carrouserComponent
+    carrouserComponent,
   },
 };
 </script>
@@ -89,6 +100,46 @@ export default {
     ); /* Aumenta la escala del enlace al 110% cuando el mouse está sobre él */
     transition: transform 0.5s ease;
   }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .main .right img {
+    transition: background-color 0.5s ease;
+  }
+
+  .main .right img:hover {
+    transform: scale(
+      1.1
+    ); /* Aumenta la escala del enlace al 110% cuando el mouse está sobre él */
+    transition: transform 0.5s ease;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px; /* Espacio alrededor del texto */
+  }
+
+  .text-overlay h1 {
+    color: black;
+    font-weight: bold;
+  }
+
+  .text-overlay h2 {
+    background-color: white;
+    color: #096fb9;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+  .spanH1 {
+    font-size: 80px;
+  }
 }
 
 /******************************** ESTILOS PARA CELULARES ****************************************/
@@ -105,6 +156,8 @@ export default {
   .main .right img {
     width: 100%;
   }
+
+ 
 
   .main .left h1 {
     font-weight: 300;
@@ -137,6 +190,35 @@ export default {
       1.1
     ); /* Aumenta la escala del enlace al 110% cuando el mouse está sobre él */
     transition: transform 0.5s ease;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px; /* Espacio alrededor del texto */
+  }
+
+  .text-overlay h1 {
+    color: black;
+    font-weight: bold;
+  }
+
+  .text-overlay h2 {
+    background-color: white;
+    color: #096fb9;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+  .main .right {
+    margin-top: 70px;
   }
 }
 </style>

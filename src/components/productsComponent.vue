@@ -33,35 +33,6 @@
         <button>Pedir</button>
       </div>
 
-      <div class="product">
-        <p class="title">Bidon 20lts</p>
-
-        <img src="../assets/bidonProd.png" alt="" />
-        <p class="desc">Descripción</p>
-        <p>Producto mineralizado</p>
- 
-        <button>Pedir</button>
-      </div>
-
-      <div class="product">
-        <p class="title">Bidon 20lts</p>
-
-        <img src="../assets/bidonProd.png" alt="" />
-        <p class="desc">Descripción</p>
-        <p>Producto mineralizado</p>
-
-        <button>Pedir</button>
-      </div>
-
-      <div class="product">
-        <p class="title">Bidon 20lts</p>
-
-        <img src="../assets/bidonProd.png" alt="" />
-        <p class="desc">Descripción</p>
-        <p>Producto mineralizado</p>
-
-        <button>Pedir</button>
-      </div>
     </div>
   </div>
 </template>
