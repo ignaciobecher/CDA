@@ -8,7 +8,14 @@
 
         <img :src="item.image" alt="" />
 
-        <button>Pedir</button>
+        <button>
+          <a
+            style="color: white; font-weight: bold; text-decoration: none"
+            href="https://wa.link/94gbxo"
+            target="_blank"
+            >Pedir</a
+          >
+        </button>
       </div>
     </div>
   </div>
@@ -20,45 +27,45 @@ export default {
     return {
       products: [
         {
-          name: 'Bidon 20lts',
-          image: '/assets/products/bidon20.png'
+          name: "Bidon 20lts",
+          image: "/assets/products/bidon20.png",
         },
         {
-          name: 'Bidon 12lts',
-          image: '/assets/products/bidon12.png'
+          name: "Bidon 12lts",
+          image: "/assets/products/bidon12.png",
         },
         {
-          name: 'Bidon 10lts',
-          image: '/assets/products/bidon10.png'
+          name: "Bidon 10lts",
+          image: "/assets/products/bidon10.png",
         },
         {
-          name: 'Bidon 6lts',
-          image: '/assets/products/bidon6.png'
+          name: "Bidon 6lts",
+          image: "/assets/products/bidon6.png",
         },
         {
-          name: 'Agua 2lts',
-          image: '/assets/products/agua2.png'
+          name: "Agua 2lts",
+          image: "/assets/products/agua2.png",
         },
         {
-          name: 'Agua 1.5lts',
-          image: '/assets/products/agua1.5.png'
+          name: "Agua 1.5lts",
+          image: "/assets/products/agua1.5.png",
         },
         {
-          name: 'Agua 600ml',
-          image: '/assets/products/agua600.png'
+          name: "Agua 600ml",
+          image: "/assets/products/agua600.png",
         },
         {
-          name: 'Bidon de soda 1.5lts',
-          image: '/assets/products/soda1.5.png'
+          name: "Bidon de soda 1.5lts",
+          image: "/assets/products/soda1.5.png",
         },
         {
-          name: 'Agua desmineralizada',
-          image: '/assets/products/desmi.png'
-        }
-      ]
-    }
-  }
-}
+          name: "Agua desmineralizada",
+          image: "/assets/products/desmi.png",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -76,7 +83,9 @@ export default {
 
 .product button:hover {
   background-color: #096fb9 !important;
-  transform: scale(1.1); /* Aumenta la escala del botón al 110% cuando el mouse está sobre él */
+  transform: scale(
+    1.1
+  ); /* Aumenta la escala del botón al 110% cuando el mouse está sobre él */
   transition: transform 0.5s ease;
 }
 
@@ -108,7 +117,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center; /* Alinea elementos horizontalmente */
-    text-align: center;  /* Centra el texto */
+    text-align: center; /* Centra el texto */
     padding: 20px; /* Espacio interior opcional */
   }
 
@@ -163,7 +172,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center; /* Alinea elementos horizontalmente */
-    text-align: center;  /* Centra el texto */
+    text-align: center; /* Centra el texto */
     padding: 20px; /* Espacio interior opcional */
     margin-right: 20px;
     margin-left: 20px;
@@ -194,4 +203,3 @@ export default {
   }
 }
 </style>
-

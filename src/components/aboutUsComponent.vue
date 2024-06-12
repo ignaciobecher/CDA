@@ -9,7 +9,7 @@
           Cuando hablamos de CDA hacemos referencia a Monasterolo y Agua Pura, dos marcas que desde hace más de 50 años se encuentran brindando servicios a nuestra provincia. Sentimos una gran responsabilidad social por nuestro trabajo y es por eso que brindamos un servicio que ofrece calidad, precio y tiempo de entrega.
           <br />
           <br />
-          El agua que utilizamos es extraida de perforaciones con más de 30 metros de profundidad, seguida por un desbarrado y filtrado de hasta 1 micron. Luego se realiza un filtrado de carbon activo para seguir con un filtrado por osmosis inversa que nivela los minerales del agua. 
+          
         </p>
       </div>
       <div class="center">
@@ -19,9 +19,9 @@
         <h5>Nuestros estandares:</h5>
 
         <div class="standart">
-          <p class="pTitle">Agua mineralizada:</p>
+          <p class="pTitle">Procesamiento:</p>
           <p>
-            Te ofrecemos la mejor calidad en agua mineralizada para que vos y tu familia disfruten los beneficios del agua.
+            El agua que utilizamos es extraida de perforaciones con más de 30 metros de profundidad, seguida por un desbarrado y filtrado de hasta 1 micron. Luego se realiza un filtrado de carbon activo para seguir con un filtrado por osmosis inversa que nivela los minerales del agua. 
           </p>
         </div>
 

@@ -10,7 +10,9 @@
         >
         TE OFRECEMOS LOS MEJORES PRODUCTOS PARA VOS Y TU FAMILIA
       </h3>
-      <button>Quiero ser cliente</button>
+      <button>
+        <a style="color: white; font-weight: bold; text-decoration: none;" href="https://wa.link/94gbxo" target="_blank">Quiero ser cliente</a>
+      </button>
     </div>
 
     <div class="right">

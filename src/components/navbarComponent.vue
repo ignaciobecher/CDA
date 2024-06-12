@@ -33,7 +33,7 @@
         </li>
 
         <li class="nav-item client-li">
-          <a class="nav-link client" href="https://api.whatsapp.com/send?phone=2657101010&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20CDA%20agua." target="_blank" >QUIERO SER CLIENTE</a>
+          <a class="nav-link client" href="https://wa.link/94gbxo" target="_blank" >QUIERO SER CLIENTE</a>
         </li>
       </ul>
     </div>

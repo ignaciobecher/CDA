@@ -23,22 +23,26 @@
       </div>
       <div class="center">
         <h6>Dirección</h6>
+        <strong style="color: white">Villa Mercedes</strong>
         <p>Presidente Peron 2010</p>
-        <p>Villa Mercedes</p>
-        <p>San Luis</p>
-        <p>Argentina</p>
-        <a target="_blank" href="https://maps.app.goo.gl/UWjhHArJUUrPUyVG9">
-          <i class="bi bi-geo-alt-fill"></i>
-          Maps
-        </a>
+
+        <strong style="color: white">San Luis</strong>
+        <p>Caseros 515</p>
+
+        <strong style="color: white">Justo Daract</strong>
+        <p>Libertad 12</p>
       </div>
       <div class="right">
         <h6>Contacto</h6>
-        <p>ventas@cda.com</p>
-        <p>atencion@cda.com</p>
-        <p>reclamos@cda.com</p>
-        <p>2657-123456</p>
-        <p>2657-987654321</p>
+        <strong style="color: white">Villa Mercedes</strong>
+        <p>2657-640348</p>
+        <strong style="color: white">San Luis</strong>
+        <p>2664-899999</p>
+        <strong style="color: white">Justo daract </strong>
+        <p>2657-615659</p>
+
+        <strong style="color: white">Email:</strong>
+        <p>administracion@cdasanluis.net</p>
       </div>
       <div class="social">
         <h6>Seguinos en nuestras redes</h6>
@@ -50,27 +54,32 @@
     </div>
   </div>
 
+  <!-- MOBILE********************************** -->
   <div class="divMobile">
     <div class="main">
       <div class="center">
         <h6>Dirección</h6>
-        <p>Presidente Peron 2010. Villa Mercedes (San Luis)</p>
+        <strong style="color: white">Villa Mercedes</strong>
+        <p>Presidente Peron 2010</p>
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.95063724221!2d-65.44838992563498!3d-33.65844090819168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d16a449adc1cab%3A0x3ce6be5292e62a97!2sCentro%20de%20distribucion%20de%20agua%20y%20soda!5e0!3m2!1ses-419!2sar!4v1711644416779!5m2!1ses-419!2sar"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <strong style="color: white">San Luis</strong>
+        <p>Caseros 515</p>
+
+        <strong style="color: white">Justo Daract</strong>
+        <p>Libertad 12</p>
+   
       </div>
       <div class="right">
         <h6>Contacto</h6>
-        <p>
-          <i class="bi bi-envelope"></i> ventas@cda.com <br />
-          <i class="bi bi-envelope"></i> atencion@cda.com <br />
-          <i class="bi bi-envelope"></i> reclamos@cda.com <br />
-          <i class="bi bi-telephone"></i> 2657-987654321 <br />
-          <i class="bi bi-telephone"></i> 2657-987654321
-        </p>
+        <strong style="color: white">Villa Mercedes</strong>
+        <p>2657-640348</p>
+        <strong style="color: white">San Luis</strong>
+        <p>2664-899999</p>
+        <strong style="color: white">Justo daract </strong>
+        <p>2657-615659</p>
+
+        <strong style="color: white">Email:</strong>
+        <p>administracion@cdasanluis.net</p>
       </div>
 
       <div class="social">
@@ -80,7 +89,7 @@
         <a href=""><i class="bi bi-whatsapp"></i>WhatsApp</a>
         <!-- <img src="/public/logoNav.png" alt="" srcset="" /> -->
       </div>
-      <p style="color: white">©CDA . Todos los derchos reservados.</p>
+      <p style="color: white">©CDA . Todos los derechos reservados.</p>
     </div>
   </div>
 </template>
@@ -88,11 +97,11 @@
 <style scoped>
 /******************************** ESTILOS PARA PANTALLA ****************************************/
 @media (min-width: 768px) {
-  .pcDiv{
-    display: block
+  .pcDiv {
+    display: block;
   }
-  
-  .divMobile{
+
+  .divMobile {
     display: none;
   }
 
@@ -214,11 +223,11 @@
     }
   }
 
-  .pcDiv{
-    display: none
+  .pcDiv {
+    display: none;
   }
-  
-  .divMobile{
+
+  .divMobile {
     display: block;
   }
 
