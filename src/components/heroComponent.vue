@@ -175,7 +175,7 @@ export default {
   .main .left button {
     border: none;
     background-color: #54559e;
-    width: 100%;
+    width: 95%;
     padding: 10px;
     color: white;
     font-weight: 500;
@@ -184,13 +184,7 @@ export default {
     cursor: pointer;
   }
 
-  .main .left button:hover {
-    background-color: #096fb9 !important;
-    transform: scale(
-      1.1
-    ); /* Aumenta la escala del enlace al 110% cuando el mouse está sobre él */
-    transition: transform 0.5s ease;
-  }
+ 
 
   .image-container {
     position: relative;

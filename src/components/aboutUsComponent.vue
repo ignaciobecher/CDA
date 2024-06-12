@@ -6,18 +6,10 @@
       <div class="left">
         <h5>¿Quienes somos?</h5>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
-          perferendis iure quisquam dolor facere fugit ea numquam error culpa
-          quibusdam voluptate dolore itaque id nostrum minima, vel deserunt!
-          Temporibus molestias facilis voluptatum dolorum reiciendis
-          voluptatibus mollitia deserunt.
+          Cuando hablamos de CDA hacemos referencia a Monasterolo y Agua Pura, dos marcas que desde hace más de 50 años se encuentran brindando servicios a nuestra provincia. Sentimos una gran responsabilidad social por nuestro trabajo y es por eso que brindamos un servicio que ofrece calidad, precio y tiempo de entrega.
           <br />
           <br />
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
-          perferendis iure quisquam dolor facere fugit ea numquam error culpa
-          quibusdam voluptate dolore itaque id nostrum minima, vel deserunt!
-          Temporibus molestias facilis voluptatum dolorum reiciendis
-          voluptatibus mollitia deserunt.
+          El agua que utilizamos es extraida de perforaciones con más de 30 metros de profundidad, seguida por un desbarrado y filtrado de hasta 1 micron. Luego se realiza un filtrado de carbon activo para seguir con un filtrado por osmosis inversa que nivela los minerales del agua. 
         </p>
       </div>
       <div class="center">
@@ -29,27 +21,21 @@
         <div class="standart">
           <p class="pTitle">Agua mineralizada:</p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            temporibus dolorum magni eaque ex sapiente aperiam veritatis quidem
-            ab fugiat?
+            Te ofrecemos la mejor calidad en agua mineralizada para que vos y tu familia disfruten los beneficios del agua.
           </p>
         </div>
 
         <div class="standart">
-          <p class="pTitle">Baja en sodio:</p>
+          <p class="pTitle">Vendedores:</p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            temporibus dolorum magni eaque ex sapiente aperiam veritatis quidem
-            ab fugiat?
+            Desde CDA salen a diario 27 vendedores con sus vehiculos a recorrer los domicilios de la provincia para llevarte a tu hogar agua de primer nivel.
           </p>
         </div>
 
         <div class="standart">
-          <p class="pTitle">Máxima cálidad:</p>
+          <p class="pTitle">Personal capacitado:</p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            temporibus dolorum magni eaque ex sapiente aperiam veritatis quidem
-            ab fugiat?
+            Nuestro personal esta dedicado pura y exclusivamente a mejorar la atención. Contamos con personal administrativo, de produccion y con un taller propio.
           </p>
         </div>
       </div>
